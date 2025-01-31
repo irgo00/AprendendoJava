@@ -1,0 +1,56 @@
+============================================================== ERRORs =================================================
+
+  - Erros impossíveis de consertar sem precisar parar o programa, como falta de memória durante a execução.
+
+Principais Erros:
+
+- StackOverflowError: Ocorre quando há chamadas recursivas sem fim, estourando a pilha de execução.
+- OutOfMemoryError: A JVM não consegue alocar memória suficiente para continuar.
+- ClassNotFoundError: A JVM não encontra uma classe necessária para a execução.
+- NoClassDefFoundError: A classe existe, mas está ausente em tempo de execução.
+- UnsatisfiedLinkError: A JVM não encontra uma biblioteca nativa necessária.
+- IncompatibleClassChangeError: Uma classe foi modificada de forma incompatível.
+- AbstractMethodError: Tentativa de chamar um método abstrato não implementado.
+- OutOfMemoryError: Metaspace: Relacionado à memória Metaspace da JVM.
+- UnknownError: Erro desconhecido pela JVM.
+- InternalError: Ocorre quando a JVM encontra um erro interno irreparável.
+
+======================================================================= EXCEPTIONS ====================================
+
+  - Eventos que interrompem o fluxo do programa, tratados com try-catch ou throws.
+
+------------------------------------------------------------------ CHECKED EXCEPTIONS ---------------------------------
+
+  - São filhas diretas da classe Exception e obrigatoriamente tratadas.
+
+- IOException: Erro durante operações de entrada e saída.
+- SQLException: Erros relacionados a banco de dados.
+- ClassNotFoundException: Classe especificada não encontrada.
+- FileNotFoundException: Arquivo não encontrado.
+- InterruptedException: Uma thread foi interrompida.
+- ParseException: Falha ao converter dados.
+
+--------------------------------------------------------- UNCHECKED EXCEPTIONS (RuntimeException) ---------------------
+
+  - São filhas da RuntimeException e ocorrem em tempo de execução.
+
+- NullPointerException: Acessar um objeto null.
+- ArrayIndexOutOfBoundsException: Índice inválido de array.
+- ArithmeticException: Operação aritmética inválida (ex: divisão por zero).
+- ClassCastException: Cast inválido de um objeto.
+- IllegalArgumentException: Argumento inválido passado para um método.
+- NumberFormatException: Falha ao converter String para número.
+- IllegalStateException: Estado inapropriado do objeto.
+- NoSuchElementException: Acessar elemento inexistente.
+- UnsupportedOperationException: Método invocado não é suportado.
+- TimeoutException: Operação excedeu o tempo limite.
+
+---------------------------------------------------------------- TRATAMENTO DE EXCEÇÕES -------------------------------
+
+- Bloco try-catch: Código a ser executado fica no `try`, caso haja erro, o `catch` trata.
+- Vários catch: Permite tratar diferentes exceções separadamente.
+- Multicatch: Permite capturar múltiplas exceções em um só `catch`.
+- Finally: Bloco opcional executado independentemente de erro.
+- Try with Resources: Gerenciamento automático de recursos que precisam ser fechados.
+
+
