@@ -1,0 +1,15 @@
+Exemplo 1
+
+Uma tela navegando para outra sem transferência de dados entre elas.
+
+Exemplo 2
+
+Uma tela navegando para a outra e enviando dados para a nova.
+
+Exemplo 3
+
+Uma tela navegando para outra. Na tela 2 um valor será devolvido para a tela 1.
+A tela 1 será atualizada com o valor recebido.
+
+Exemplo 4
+Utilizando um JDesktopPane
