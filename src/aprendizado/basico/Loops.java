@@ -5,7 +5,7 @@ package aprendizado.basico;
  */
 public class Loops {
     public static void main(String[] args) {
-        
+
         // Exemplo de loop 'for'
         System.out.println("Usando for loop:");
         for (int i = 1; i <= 5; i++) {
