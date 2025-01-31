@@ -1,7 +1,7 @@
-package aprendizado.exceptions;
+package aprendizado.exceptions.errors;
 
 // Exemplo de StackOverflowError
-public class StackOverflowExample {
+public class StackOverflowExemplo {
     public static void recursiveMethod() {
         recursiveMethod(); // Chamada recursiva infinita
     }
